@@ -1,0 +1,82 @@
+@import "reset.css";
+
+@import "fonts.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+header{
+    font-family: "CircularStd";
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(36, 33, 33);
+    padding: 20px 0 20px 0;
+    margin-bottom: 5px;
+}
+
+footer{
+    font-family: "CircularStd";
+    font-weight: 700;
+    text-align: center;
+    background-color:  rgb(36, 33, 33);
+    padding: 20px 0 20px 0;
+    margin-top: 5px;
+}
+
+h1{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h2{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+span{
+    font-family: "Larsseit";
+    font-weight: 400;
+    color: red;
+}
+
+strong{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(25, 196, 159);
+}
+
+mark{
+    font-family: "Larsseit";
+    font-weight: 700;
+    font-size: 20px;
+}
+
+li{
+    font-family: "Lato";
+    font-weight: 500;
+    margin-left: 20px;
+    list-style: square;
+}
+
+a{
+    font-family: "CircularStd";
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(114, 10, 148);
+}
+
+.example{
+    font-family: "Lato";
+    font-weight: 100;
+    color: rgb(25, 137, 174);
+    background-color: rgb(17, 13, 53);
+}
